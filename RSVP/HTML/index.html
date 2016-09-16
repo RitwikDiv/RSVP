@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="materialize.css">
+<link rel="stylesheet" type="text/css" href="materialize.min.css">
+
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="materialize.js"></script>
+<script type="text/javascript" src="materialize.min.js"></script>
+</head>
+
+<body bgcolor="#EBE7E7"></body>
+
+<nav>
+<div class="nav-wrapper">
+<a href="#" class="brand-logo">Guest RSVP System</a>
+</div>
+</nav>
+  
+ 
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+              <span class="card-title">Add a guest to the database</span>
+  				  <br/>         
+    				
+         
+              
+         <div>
+         <label for="last_name">Name</label>
+         <input id="last_name" type="text" class="validate">
+         </div>
+   					 
+   						
+                         <br />
+                        
+   				 	<label>No of people:</label>
+   					 <input type="text" id="carmodel" />
+   						 <br />
+    
+            </div>
+            <div class="card-action">
+            <button class="waves-effect waves-light btn" type="button" id="addcar" onclick="addCar();">Add Data</button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+  
+
+<div id="carlistholder">
+     <h3>Guest Information</h3>
+
+    <ul id="carlist"></ul>
+</div>
